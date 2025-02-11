@@ -18,7 +18,7 @@ const config: Config = {
         // Used for header, navigation, and main elements
         primary: {
           DEFAULT: "#3B6790", // Base color for main elements
-          light: "#4A7497", // Hover states, highlights
+          light: "#6F9DCB", // Hover states, highlights
           dark: "#2E4B63", // Text on primary background
         },
 
@@ -26,14 +26,14 @@ const config: Config = {
         // Used for CTA, highlights, and important elements
         secondary: {
           DEFAULT: "#EFB036", // Base color for accents and CTA
-          light: "#FFD073", // Hover states, highlights
+          light: "#F2BE5A", // Hover states, highlights
           dark: "#CC9422", // Text on secondary background
         },
 
         // Accent color - Darker Blue
         // Provides depth and variation to the design
         accent: {
-          DEFAULT: "#2E4B63", // Accent elements and emphasis
+          DEFAULT: "#88A984", // Accent elements and emphasis
           light: "#4F6A82", // Subtle accents and hover
           dark: "#1D3141", // Strong emphasis
         },

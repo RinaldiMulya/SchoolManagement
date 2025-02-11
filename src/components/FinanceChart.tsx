@@ -165,7 +165,6 @@ const financeData: FinanceDataType = {
         },
     ]
 };
-
 const FinanceChart = () => {
     // State to manage selected year
     const [selectedYear, setSelectedYear] = useState(Object.keys(financeData)[0]);
@@ -174,7 +173,6 @@ const FinanceChart = () => {
     const handleYearChange = (year: string) => {
         setSelectedYear(year);
     };
-
     return (
         <div className='bg-white p-4 rounded-xl w-full h-full shadow-lg'>
             {/* TITLE and YEAR DROPDOWN */}
@@ -195,10 +193,8 @@ const FinanceChart = () => {
                         </select>
                     </div>
                 </div>
-
                 <Image src='/moreDark.png' alt='more options' width={20} height={20} />
             </div>
-
             {/* Line Chart */}
             <div className="chart-container" style={{ width: '100%', height: '400px' }}>
                 <ResponsiveContainer width="100%" height="100%">
@@ -226,5 +222,4 @@ const FinanceChart = () => {
         </div>
     )
 }
-
 export default FinanceChart
