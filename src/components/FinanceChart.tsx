@@ -174,7 +174,7 @@ const FinanceChart = () => {
         setSelectedYear(year);
     };
     return (
-        <div className='bg-white p-4 rounded-xl w-full h-full shadow-lg'>
+        <div className='bg-white p-4 rounded-xl w-full max-h-full h-screen shadow-lg'>
             {/* TITLE and YEAR DROPDOWN */}
             <div className='flex justify-between items-center mb-4'>
                 <div className='flex items-center gap-3'>
@@ -195,8 +195,8 @@ const FinanceChart = () => {
                 </div>
                 <Image src='/moreDark.png' alt='more options' width={20} height={20} />
             </div>
-            {/* Line Chart */}
-            <div className="chart-container" style={{ width: '100%', height: '400px' }}>
+            {/* Area Chart */}
+            <div className="chart-container" style={{ width: '100%', height: '430px' }}>
                 <ResponsiveContainer width="100%" height="100%">
                     <AreaChart
                         width={500}

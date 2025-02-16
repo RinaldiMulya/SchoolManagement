@@ -46,29 +46,49 @@ const AttendanceChart = () => {
                     width={500}
                     height={300}
                     data={data}
-                    barSize={25}
+                    barGap={0} // Mengatur gap antara group bar
+                    barCategoryGap="20%" // Mengatur gap antara kategori
+                    barSize={30} // Ukuran bar yang responsive
+                    margin={{ 
+                        top: 5, 
+                        right: 30, // Margin kanan diperbesar
+                        left: 20, // Margin kiri disesuaikan
+                        bottom: 5 
+                    }}
                 >
                     <CartesianGrid strokeDasharray="3 3" vertical={false} stroke='#ddd' />
-                    <XAxis dataKey="name" axisLine={false} tick={{ fill: "#d1d5db" }} tickLine={false} />
-                    <YAxis axisLine={false} tick={{ fill: "#d1d5db" }} tickLine={false} />
+                    <XAxis 
+                        dataKey="name" 
+                        axisLine={false} 
+                        tick={{ fill: "#d1d5db" }} 
+                        tickLine={false}
+                        padding={{ left: 10, right: 10 }} // Padding untuk XAxis
+                    />
+                    <YAxis 
+                        axisLine={false} 
+                        tick={{ fill: "#d1d5db" }} 
+                        tickLine={false}
+                        width={30} // Lebar tetap untuk YAxis
+                    />
                     <Tooltip
                         cursor={{ fill: 'lightgrey' }}
                         labelStyle={{ color: '#000', fontWeight: 'bold' }}
-                        contentStyle=
-                        {
-                            {
-                                backgroundColor: '#fff',
-                                border: 'none',
-                                borderRadius: '10px',
-                                padding: '10px',
-                                borderColor: 'lightgrey'
-                            }
-                        }
+                        contentStyle={{
+                            backgroundColor: '#fff',
+                            border: 'none',
+                            borderRadius: '10px',
+                            padding: '6px',
+                            borderColor: 'lightgrey'
+                        }}
                     />
                     <Legend
                         align='left'
                         verticalAlign='top'
-                        wrapperStyle={{ paddingTop: "20px", paddingBottom: "40px" }}
+                        wrapperStyle={{ 
+                            paddingTop: "20px", 
+                            paddingBottom: "20px", // Dikurangi untuk memberikan ruang lebih pada chart
+                            paddingLeft: "20px" 
+                        }}
                     />
                     <Bar
                         dataKey="present"
@@ -76,6 +96,7 @@ const AttendanceChart = () => {
                         activeBar={<Rectangle fill="pink" stroke="blue" />}
                         legendType="circle"
                         radius={[20, 20, 0, 0]}
+                        maxBarSize={50} // Maksimum ukuran bar
                     />
                     <Bar
                         dataKey="absent"
@@ -83,6 +104,7 @@ const AttendanceChart = () => {
                         activeBar={<Rectangle fill="gold" stroke="purple" />}
                         legendType="circle"
                         radius={[20, 20, 0, 0]}
+                        maxBarSize={50} // Maksimum ukuran bar
                     />
                 </BarChart>
             </ResponsiveContainer>

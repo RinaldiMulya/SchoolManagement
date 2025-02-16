@@ -69,17 +69,17 @@ const EventCalender = () => {
             <div className="flex flex-col gap-4">
                 {eventsData.map((event) => (
                     <div
-                        className="flex justify-between gap-4 p-5 rounded-lg shadow-md text-text-secondary border-t-8 odd:border-t-primary-light even:border-t-secondary-light"
+                        className="flex justify-between gap-4 p-5 rounded-lg shadow-md text-text-primary border-t-8 odd:border-t-primary-light even:border-t-secondary-light"
                         key={event.id}
                     >
                         <div>
                             <h1 className="font-semibold">{event.title}</h1>
                             <h2 className="text-xs">{event.class}</h2>
-                            <h3 className="text-sm">{event.describe}</h3>
+                            <h3 className="text-sm text-text-secondary">{event.describe}</h3>
                         </div>
                         <div className="flex flex-col items-end pt-1">
                             <h1 className="font-semibold">{event.date}</h1>
-                            <h1 className="">{event.startTime} - {event.endTime}</h1>
+                            <h1 className="text-text-secondary">{event.startTime} - {event.endTime}</h1>
                         </div>
                     </div>
                 ))}

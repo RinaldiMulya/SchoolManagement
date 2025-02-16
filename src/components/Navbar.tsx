@@ -2,9 +2,9 @@ import Image from "next/image"
 
 const Navbar = () => {
     return (
-        <div className="flex items-center justify-between p-4">
+        <div className="flex items-center justify-between bg-background-primary p-3 rounded-xl shadow-md">
             {/* SEARCH BAR */}
-            <div className="hidden md:flex items-center gap-2 text-xs rounded-full ring-[1.5px] ring-gray-300 px-2">
+            <div className="hidden md:flex items-center gap-2 text-xs rounded-full ring-[1.5px] ring-border-dark hover:ring-accent px-2">
                 <Image 
                     src="/search.png" 
                     alt=""
@@ -13,13 +13,14 @@ const Navbar = () => {
                 <input type="text" placeholder="Search..." className="w-[200px] p-2 bg-transparent outline-none"/>
             </div>
             {/* iCONS AND USER */}
-            <div className="flex items-center gap-6 justify-end w-full">
+            <div className="flex items-center gap-6 justify-center md:justify-end w-full">
                 <div className="bg-background-primary rounded-full w-7 h-7 flex items-center justify-center cursor-pointer">
                     <Image 
                         src="/message.png"
                         alt=""
                         width={20}
-                        height={20}/>
+                        height={20}
+                        />
                 </div>
                 <div className="bg-background-primary rounded-full w-7 h-7 flex items-center justify-center cursor-pointer relative">
                     <Image 

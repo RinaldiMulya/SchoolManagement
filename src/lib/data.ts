@@ -858,64 +858,74 @@ export const announcementsData = [
     title: "About 4A Math Test",
     class: "4A",
     date: "2025-01-01",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nisl nec ultricies ultricies, nunc nisl ultricies nunc, nec ultricies nunc nisl nec nunc. Nullam auctor, nisl nec ultricies ultricies, nunc nisl ultricies nunc, nec ultricies nunc nisl nec nunc.",
   },
   {
     id: 2,
     title: "About 3A Math Test",
     class: "3A",
     date: "2025-01-01",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nisl nec ultricies ultricies, nunc nisl ultricies nunc, nec ultricies nunc nisl nec nunc. Nullam auctor, nisl nec ultricies ultricies, nunc nisl ultricies nunc, nec ultricies nunc nisl nec nunc.",
   },
   {
     id: 3,
     title: "About 3B Math Test",
     class: "3B",
     date: "2025-01-01",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nisl nec ultricies ultricies, nunc nisl ultricies nunc, nec ultricies nunc nisl nec nunc. Nullam auctor, nisl nec ultricies ultricies, nunc nisl ultricies nunc, nec ultricies nunc nisl nec nunc.",
   },
-  {
-    id: 4,
-    title: "About 6A Math Test",
-    class: "6A",
-    date: "2025-01-01",
-  },
-  {
-    id: 5,
-    title: "About 8C Math Test",
-    class: "8C",
-    date: "2025-01-01",
-  },
-  {
-    id: 6,
-    title: "About 2A Math Test",
-    class: "2A",
-    date: "2025-01-01",
-  },
-  {
-    id: 7,
-    title: "About 4C Math Test",
-    class: "4C",
-    date: "2025-01-01",
-  },
-  {
-    id: 8,
-    title: "About 4B Math Test",
-    class: "4B",
-    date: "2025-01-01",
-  },
-  {
-    id: 9,
-    title: "About 3C Math Test",
-    class: "3C",
-    date: "2025-01-01",
-  },
-  {
-    id: 10,
-    title: "About 1C Math Test",
-    class: "1C",
-    date: "2025-01-01",
-  },
+  // {
+  //   id: 4,
+  //   title: "About 6A Math Test",
+  //   class: "6A",
+  //   date: "2025-01-01",
+  //   description:
+  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nisl nec ultricies ultricies, nunc nisl ultricies nunc, nec ultricies nunc nisl nec nunc. Nullam auctor, nisl nec ultricies ultricies, nunc nisl ultricies nunc, nec ultricies nunc nisl nec nunc.",
+  // },
+  // {
+  //   id: 5,
+  //   title: "About 8C Math Test",
+  //   class: "8C",
+  //   date: "2025-01-01",
+  //   description:
+  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nisl nec ultricies ultricies, nunc nisl ultricies nunc, nec ultricies nunc nisl nec nunc. Nullam auctor, nisl nec ultricies ultricies, nunc nisl ultricies nunc, nec ultricies nunc nisl nec nunc.",
+  // },
+  // {
+  //   id: 6,
+  //   title: "About 2A Math Test",
+  //   class: "2A",
+  //   date: "2025-01-01",
+  //   description:
+  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nisl nec ultricies ultricies, nunc nisl ultricies nunc, nec ultricies nunc nisl nec nunc. Nullam auctor, nisl nec ultricies ultricies, nunc nisl ultricies nunc, nec ultricies nunc nisl nec nunc.",
+  // },
+  // {
+  //   id: 7,
+  //   title: "About 4C Math Test",
+  //   class: "4C",
+  //   date: "2025-01-01",
+  //   description:
+  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nisl nec ultricies ultricies, nunc nisl ultricies nunc, nec ultricies nunc nisl nec nunc. Nullam auctor, nisl nec ultricies ultricies, nunc nisl ultricies nunc, nec ultricies nunc nisl nec nunc.",
+  // },
+  // {
+  //   id: 8,
+  //   title: "About 4B Math Test",
+  //   class: "4B",
+  //   date: "2025-01-01",
+  //   description:
+  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nisl nec ultricies ultricies, nunc nisl ultricies nunc, nec ultricies nunc nisl nec nunc. Nullam auctor, nisl nec ultricies ultricies, nunc nisl ultricies nunc, nec ultricies nunc nisl nec nunc.",
+  // },
+  // {
+  //   id: 9,
+  //   title: "About 3C Math Test",
+  //   class: "3C",
+  //   date: "2025-01-01",
+  //   description:
+  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nisl nec ultricies ultricies, nunc nisl ultricies nunc, nec ultricies nunc nisl nec nunc. Nullam auctor, nisl nec ultricies ultricies, nunc nisl ultricies nunc, nec ultricies nunc nisl nec nunc.",
+  // },
 ];
-
-
 // YOU SHOULD CHANGE THE DATES OF THE EVENTS TO THE CURRENT DATE TO SEE THE EVENTS ON THE CALENDAR
 export const calendarEvents = [
   {

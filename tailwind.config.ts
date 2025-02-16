@@ -14,7 +14,7 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       colors: {
-        // Primary color - Navy Blue
+        // Primary color - 
         // Used for header, navigation, and main elements
         primary: {
           DEFAULT: "#3B6790", // Base color for main elements
@@ -22,7 +22,7 @@ const config: Config = {
           dark: "#2E4B63", // Text on primary background
         },
 
-        // Secondary color - Golden Yellow
+        // Secondary color - 
         // Used for CTA, highlights, and important elements
         secondary: {
           DEFAULT: "#EFB036", // Base color for accents and CTA
@@ -30,20 +30,20 @@ const config: Config = {
           dark: "#CC9422", // Text on secondary background
         },
 
-        // Accent color - Darker Blue
+        // Accent color - 
         // Provides depth and variation to the design
         accent: {
-          DEFAULT: "#88A984", // Accent elements and emphasis
-          light: "#4F6A82", // Subtle accents and hover
-          dark: "#1D3141", // Strong emphasis
+          DEFAULT: "#3d8c95", // Accent elements and emphasis
+          light: "#5EBAC5", // Subtle accents and hover
+          dark: "#2A666D ", // Strong emphasis
         },
 
         // Text color system
         // Clear hierarchy for readability
         text: {
           primary: "#1A1A1A", // Main text
-          secondary: "#4A4A4A", // Supporting text
-          disabled: "#F1F2F3", // Disabled text
+          secondary: "#a6a3a0", // Supporting text
+          disabled: "#f0ebe8", // Disabled text
         },
 
         // Background colors

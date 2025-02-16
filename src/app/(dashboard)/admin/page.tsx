@@ -8,7 +8,7 @@ import UserCard from "@/components/UserCard"
 const AdminPage = () => {
     return (
         <>
-            <div className="w-full h-screen p-4 flex gap-4 flex-col md:flex-row">
+            <div className="w-full h-auto p-4 flex gap-4 flex-col md:flex-row">
                 {/* Content Utama */}
                 <div className="w-full lg:w-2/3 flex flex-col gap-8">
                     {/* User Cards */}
@@ -37,9 +37,11 @@ const AdminPage = () => {
                 {/* Side Content */}
                 <div className="flex gap-8 flex-col w-full h-full lg:w-1/3">
                     {/* Event Calender  */}
-                    <div className="h-[300px] w-full">
+                    <div className="h-[300px] w-full flex-col gap-4">
                         <EventCalender />
-                        <Announcements />
+                        <div className="h-[300px] w-full mt-4">
+                            <Announcements />
+                        </div>
                     </div>
                 </div>
             </div>
