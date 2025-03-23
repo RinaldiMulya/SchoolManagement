@@ -23,5 +23,5 @@ Thanks to LAMA Dev
 Learn More
 To learn more about Next.js, take a look at the following resources:
 
-Lama Dev Youtube Channel
-Next.js
+[Lama Dev Youtube Channel](https://www.youtube.com/lamadev)
+[Next.js](https://nextjs.org/learn)
