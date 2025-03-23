@@ -926,148 +926,428 @@ export const announcementsData = [
   //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nisl nec ultricies ultricies, nunc nisl ultricies nunc, nec ultricies nunc nisl nec nunc. Nullam auctor, nisl nec ultricies ultricies, nunc nisl ultricies nunc, nec ultricies nunc nisl nec nunc.",
   // },
 ];
-// YOU SHOULD CHANGE THE DATES OF THE EVENTS TO THE CURRENT DATE TO SEE THE EVENTS ON THE CALENDAR
+// YOU SHOULD CHANGE THE DATES OF THE EVENTS TO THE CURRENT DATE TO SEE THE EVENTS ON THE CALENDAR. CALENDAR START WITH 0 (JANUARY) AND ENDS WITH 11 (DECEMBER)
 export const calendarEvents = [
+  // Jadwal yang sudah ada
+  // Senin
   {
     title: "Math",
     allDay: false,
-    start: new Date(2024, 7, 12, 8, 0),
-    end: new Date(2024, 7, 12, 8, 45),
+    start: new Date(2025, 2, 24, 8, 0),
+    end: new Date(2025, 2, 24, 8, 45),
   },
   {
     title: "English",
     allDay: false,
-    start: new Date(2024, 7, 12, 9, 0),
-    end: new Date(2024, 7, 12, 9, 45),
+    start: new Date(2025, 2, 24, 9, 0),
+    end: new Date(2025, 2, 24, 9, 45),
   },
   {
     title: "Biology",
     allDay: false,
-    start: new Date(2024, 7, 12, 10, 0),
-    end: new Date(2024, 7, 12, 10, 45),
+    start: new Date(2025, 2, 24, 10, 0),
+    end: new Date(2025, 2, 24, 10, 45),
   },
   {
     title: "Physics",
     allDay: false,
-    start: new Date(2024, 7, 12, 11, 0),
-    end: new Date(2024, 7, 12, 11, 45),
+    start: new Date(2025, 2, 24, 11, 0),
+    end: new Date(2025, 2, 24, 11, 45),
   },
   {
     title: "Chemistry",
     allDay: false,
-    start: new Date(2024, 7, 12, 13, 0),
-    end: new Date(2024, 7, 12, 13, 45),
+    start: new Date(2025, 2, 24, 13, 0),
+    end: new Date(2025, 2, 24, 13, 45),
   },
   {
     title: "History",
     allDay: false,
-    start: new Date(2024, 7, 12, 14, 0),
-    end: new Date(2024, 7, 12, 14, 45),
+    start: new Date(2025, 2, 24, 14, 0),
+    end: new Date(2025, 2, 24, 14, 45),
+  },
+  
+  // Selasa
+  {
+    title: "Biology",
+    allDay: false,
+    start: new Date(2025, 2, 25, 8, 0),
+    end: new Date(2025, 2, 25, 8, 45),
   },
   {
     title: "English",
     allDay: false,
-    start: new Date(2024, 7, 13, 9, 0),
-    end: new Date(2024, 7, 13, 9, 45),
-  },
-  {
-    title: "Biology",
-    allDay: false,
-    start: new Date(2024, 7, 13, 10, 0),
-    end: new Date(2024, 7, 13, 10, 45),
-  },
-  {
-    title: "Physics",
-    allDay: false,
-    start: new Date(2024, 7, 13, 11, 0),
-    end: new Date(2024, 7, 13, 11, 45),
-  },
-
-  {
-    title: "History",
-    allDay: false,
-    start: new Date(2024, 7, 13, 14, 0),
-    end: new Date(2024, 7, 13, 14, 45),
+    start: new Date(2025, 2, 25, 9, 0),
+    end: new Date(2025, 2, 25, 9, 45),
   },
   {
     title: "Math",
     allDay: false,
-    start: new Date(2024, 7, 14, 8, 0),
-    end: new Date(2024, 7, 14, 8, 45),
-  },
-  {
-    title: "Biology",
-    allDay: false,
-    start: new Date(2024, 7, 14, 10, 0),
-    end: new Date(2024, 7, 14, 10, 45),
-  },
-
-  {
-    title: "Chemistry",
-    allDay: false,
-    start: new Date(2024, 7, 14, 13, 0),
-    end: new Date(2024, 7, 14, 13, 45),
-  },
-  {
-    title: "History",
-    allDay: false,
-    start: new Date(2024, 7, 14, 14, 0),
-    end: new Date(2024, 7, 13, 14, 45),
-  },
-  {
-    title: "English",
-    allDay: false,
-    start: new Date(2024, 7, 15, 9, 0),
-    end: new Date(2024, 7, 15, 9, 45),
-  },
-  {
-    title: "Biology",
-    allDay: false,
-    start: new Date(2024, 7, 15, 10, 0),
-    end: new Date(2024, 7, 15, 10, 45),
+    start: new Date(2025, 2, 25, 10, 0),
+    end: new Date(2025, 2, 25, 10, 45),
   },
   {
     title: "Physics",
     allDay: false,
-    start: new Date(2024, 7, 15, 11, 0),
-    end: new Date(2024, 7, 15, 11, 45),
+    start: new Date(2025, 2, 25, 11, 0),
+    end: new Date(2025, 2, 25, 11, 45),
   },
-
+  {
+    title: "Chemistry",
+    allDay: false,
+    start: new Date(2025, 2, 25, 13, 0),
+    end: new Date(2025, 2, 25, 13, 45),
+  },
   {
     title: "History",
     allDay: false,
-    start: new Date(2024, 7, 15, 14, 0),
-    end: new Date(2024, 7, 15, 14, 45),
+    start: new Date(2025, 2, 25, 14, 0),
+    end: new Date(2025, 2, 25, 14, 45),
   },
+  
+  // Rabu
   {
     title: "Math",
     allDay: false,
-    start: new Date(2024, 7, 16, 8, 0),
-    end: new Date(2024, 7, 16, 8, 45),
+    start: new Date(2025, 2, 26, 8, 0),
+    end: new Date(2025, 2, 26, 8, 45),
   },
   {
     title: "English",
     allDay: false,
-    start: new Date(2024, 7, 16, 9, 0),
-    end: new Date(2024, 7, 16, 9, 45),
+    start: new Date(2025, 2, 26, 9, 0),
+    end: new Date(2025, 2, 26, 9, 45),
   },
-
+  {
+    title: "Biology",
+    allDay: false,
+    start: new Date(2025, 2, 26, 10, 0),
+    end: new Date(2025, 2, 26, 10, 45),
+  },
   {
     title: "Physics",
     allDay: false,
-    start: new Date(2024, 7, 16, 11, 0),
-    end: new Date(2024, 7, 16, 11, 45),
+    start: new Date(2025, 2, 26, 11, 0),
+    end: new Date(2025, 2, 26, 11, 45),
   },
   {
     title: "Chemistry",
     allDay: false,
-    start: new Date(2024, 7, 16, 13, 0),
-    end: new Date(2024, 7, 16, 13, 45),
+    start: new Date(2025, 2, 26, 13, 0),
+    end: new Date(2025, 2, 26, 13, 45),
   },
   {
     title: "History",
     allDay: false,
-    start: new Date(2024, 7, 16, 14, 0),
-    end: new Date(2024, 7, 16, 14, 45),
+    start: new Date(2025, 2, 26, 14, 0),
+    end: new Date(2025, 2, 26, 14, 45),
   },
+  
+  // Kamis
+  {
+    title: "Math",
+    allDay: false,
+    start: new Date(2025, 2, 27, 8, 0),
+    end: new Date(2025, 2, 27, 8, 45),
+  },
+  {
+    title: "English",
+    allDay: false,
+    start: new Date(2025, 2, 27, 9, 0),
+    end: new Date(2025, 2, 27, 9, 45),
+  },
+  {
+    title: "Biology",
+    allDay: false,
+    start: new Date(2025, 2, 27, 10, 0),
+    end: new Date(2025, 2, 27, 10, 45),
+  },
+  {
+    title: "Physics",
+    allDay: false,
+    start: new Date(2025, 2, 27, 11, 0),
+    end: new Date(2025, 2, 27, 11, 45),
+  },
+  {
+    title: "Chemistry",
+    allDay: false,
+    start: new Date(2025, 2, 27, 13, 0),
+    end: new Date(2025, 2, 27, 13, 45),
+  },
+  {
+    title: "History",
+    allDay: false,
+    start: new Date(2025, 2, 27, 14, 0),
+    end: new Date(2025, 2, 27, 14, 45),
+  },
+  
+  // Jumat
+  {
+    title: "Math",
+    allDay: false,
+    start: new Date(2025, 2, 28, 8, 0),
+    end: new Date(2025, 2, 28, 8, 45),
+  },
+  {
+    title: "English",
+    allDay: false,
+    start: new Date(2025, 2, 28, 9, 0),
+    end: new Date(2025, 2, 28, 9, 45),
+  },
+  {
+    title: "Biology",
+    allDay: false,
+    start: new Date(2025, 2, 28, 10, 0),
+    end: new Date(2025, 2, 28, 10, 45),
+  },
+  {
+    title: "Physics",
+    allDay: false,
+    start: new Date(2025, 2, 28, 11, 0),
+    end: new Date(2025, 2, 28, 11, 45),
+  },
+  {
+    title: "Chemistry",
+    allDay: false,
+    start: new Date(2025, 2, 28, 13, 0),
+    end: new Date(2025, 2, 28, 13, 45),
+  },
+  {
+    title: "History",
+    allDay: false,
+    start: new Date(2025, 2, 28, 14, 0),
+    end: new Date(2025, 2, 28, 14, 45),
+  },
+  
+  // MINGGU BERIKUTNYA
+  
+  // Senin
+  {
+    title: "Math",
+    allDay: false,
+    start: new Date(2025, 2, 31, 8, 0),
+    end: new Date(2025, 2, 31, 8, 45),
+  },
+  {
+    title: "English",
+    allDay: false,
+    start: new Date(2025, 2, 31, 9, 0),
+    end: new Date(2025, 2, 31, 9, 45),
+  },
+  {
+    title: "Biology",
+    allDay: false,
+    start: new Date(2025, 2, 31, 10, 0),
+    end: new Date(2025, 2, 31, 10, 45),
+  },
+  {
+    title: "Physics",
+    allDay: false,
+    start: new Date(2025, 2, 31, 11, 0),
+    end: new Date(2025, 2, 31, 11, 45),
+  },
+  {
+    title: "Chemistry",
+    allDay: false,
+    start: new Date(2025, 2, 31, 13, 0),
+    end: new Date(2025, 2, 31, 13, 45),
+  },
+  {
+    title: "History",
+    allDay: false,
+    start: new Date(2025, 2, 31, 14, 0),
+    end: new Date(2025, 2, 31, 14, 45),
+  },
+  
+  // Selasa
+  {
+    title: "Math",
+    allDay: false,
+    start: new Date(2025, 3, 1, 8, 0),
+    end: new Date(2025, 3, 1, 8, 45),
+  },
+  {
+    title: "English",
+    allDay: false,
+    start: new Date(2025, 3, 1, 9, 0),
+    end: new Date(2025, 3, 1, 9, 45),
+  },
+  {
+    title: "Biology",
+    allDay: false,
+    start: new Date(2025, 3, 1, 10, 0),
+    end: new Date(2025, 3, 1, 10, 45),
+  },
+  {
+    title: "Physics",
+    allDay: false,
+    start: new Date(2025, 3, 1, 11, 0),
+    end: new Date(2025, 3, 1, 11, 45),
+  },
+  {
+    title: "Chemistry",
+    allDay: false,
+    start: new Date(2025, 3, 1, 13, 0),
+    end: new Date(2025, 3, 1, 13, 45),
+  },
+  {
+    title: "History",
+    allDay: false,
+    start: new Date(2025, 3, 1, 14, 0),
+    end: new Date(2025, 3, 1, 14, 45),
+  },
+  
+  // Rabu
+  {
+    title: "Math",
+    allDay: false,
+    start: new Date(2025, 3, 2, 8, 0),
+    end: new Date(2025, 3, 2, 8, 45),
+  },
+  {
+    title: "English",
+    allDay: false,
+    start: new Date(2025, 3, 2, 9, 0),
+    end: new Date(2025, 3, 2, 9, 45),
+  },
+  {
+    title: "Biology",
+    allDay: false,
+    start: new Date(2025, 3, 2, 10, 0),
+    end: new Date(2025, 3, 2, 10, 45),
+  },
+  {
+    title: "Physics",
+    allDay: false,
+    start: new Date(2025, 3, 2, 11, 0),
+    end: new Date(2025, 3, 2, 11, 45),
+  },
+  {
+    title: "Chemistry",
+    allDay: false,
+    start: new Date(2025, 3, 2, 13, 0),
+    end: new Date(2025, 3, 2, 13, 45),
+  },
+  {
+    title: "History",
+    allDay: false,
+    start: new Date(2025, 3, 2, 14, 0),
+    end: new Date(2025, 3, 2, 14, 45),
+  },
+  
+  // Kamis
+  {
+    title: "Math",
+    allDay: false,
+    start: new Date(2025, 3, 3, 8, 0),
+    end: new Date(2025, 3, 3, 8, 45),
+  },
+  {
+    title: "English",
+    allDay: false,
+    start: new Date(2025, 3, 3, 9, 0),
+    end: new Date(2025, 3, 3, 9, 45),
+  },
+  {
+    title: "Biology",
+    allDay: false,
+    start: new Date(2025, 3, 3, 10, 0),
+    end: new Date(2025, 3, 3, 10, 45),
+  },
+  {
+    title: "Physics",
+    allDay: false,
+    start: new Date(2025, 3, 3, 11, 0),
+    end: new Date(2025, 3, 3, 11, 45),
+  },
+  {
+    title: "Chemistry",
+    allDay: false,
+    start: new Date(2025, 3, 3, 13, 0),
+    end: new Date(2025, 3, 3, 13, 45),
+  },
+  {
+    title: "History",
+    allDay: false,
+    start: new Date(2025, 3, 3, 14, 0),
+    end: new Date(2025, 3, 3, 14, 45),
+  },
+  
+  // Jumat
+  {
+    title: "Math",
+    allDay: false,
+    start: new Date(2025, 3, 4, 8, 0),
+    end: new Date(2025, 3, 4, 8, 45),
+  },
+  {
+    title: "English",
+    allDay: false,
+    start: new Date(2025, 3, 4, 9, 0),
+    end: new Date(2025, 3, 4, 9, 45),
+  },
+  {
+    title: "Biology",
+    allDay: false,
+    start: new Date(2025, 3, 4, 10, 0),
+    end: new Date(2025, 3, 4, 10, 45),
+  },
+  {
+    title: "Physics",
+    allDay: false,
+    start: new Date(2025, 3, 4, 11, 0),
+    end: new Date(2025, 3, 4, 11, 45),
+  },
+  {
+    title: "Chemistry",
+    allDay: false,
+    start: new Date(2025, 3, 4, 13, 0),
+    end: new Date(2025, 3, 4, 13, 45),
+  },
+  {
+    title: "History",
+    allDay: false,
+    start: new Date(2025, 3, 4, 14, 0),
+    end: new Date(2025, 3, 4, 14, 45),
+  },
+  
+  // MINGGU KETIGA
+  
+  // Senin
+  {
+    title: "Math",
+    allDay: false,
+    start: new Date(2025, 3, 7, 8, 0),
+    end: new Date(2025, 3, 7, 8, 45),
+  },
+  {
+    title: "English",
+    allDay: false,
+    start: new Date(2025, 3, 7, 9, 0),
+    end: new Date(2025, 3, 7, 9, 45),
+  },
+  {
+    title: "Biology",
+    allDay: false,
+    start: new Date(2025, 3, 7, 10, 0),
+    end: new Date(2025, 3, 7, 10, 45),
+  },
+  {
+    title: "Physics",
+    allDay: false,
+    start: new Date(2025, 3, 7, 11, 0),
+    end: new Date(2025, 3, 7, 11, 45),
+  },
+  {
+    title: "Chemistry",
+    allDay: false,
+    start: new Date(2025, 3, 7, 13, 0),
+    end: new Date(2025, 3, 7, 13, 45),
+  },
+  {
+    title: "History",
+    allDay: false,
+    start: new Date(2025, 3, 7, 14, 0),
+    end: new Date(2025, 3, 7, 14, 45),
+  }
 ];

@@ -120,22 +120,22 @@ const menuItems = [
 
 const Menu = () => {
   return (
-    <div className="mt-4 text-md">
+    <div className="mt-4 text-sm">
       {menuItems.map(i => (
         <div className="flex flex-col gap-2" key={i.title}>
-          <span className="hidden lg:block text-gray-500 font-medium my-6 mx-4">{i.title}</span>
+          <span className="hidden lg:block text-gray-400 font-light my-4">{i.title}</span>
           {i.items.map((item) => {
             if (item.visible.includes(role)) {
               return (
                 <Link
                   href={item.href}
                   key={item.label}
-                  className="flex items-center justify-center lg:justify-start gap-4 mx-6 md:px-4 text-gray-700 py-2 rounded-lg hover:bg-accent/55">
+                  className="flex items-center justify-center lg:justify-start gap-4  text-gray-700 py-2 px-2 rounded-lg hover:bg-accent/55">
                   <Image
                     src={item.icon}
                     alt={item.label}
-                    width={32}
-                    height={32} />
+                    width={16}
+                    height={16} />
                   <span className="hidden lg:block">{item.label}</span>
                 </Link>
               );

@@ -37,24 +37,24 @@ const eventsData = [
         startTime: "10:00",
         endTime: "11:00",
     },
-    // {
-    //     id: 4,
-    //     title: "Museum Trip",
-    //     class: "4A",
-    //     describe: "This is a trip to the museum",
-    //     date: "2025-01-01",
-    //     startTime: "10:00",
-    //     endTime: "11:00",
-    // },
-    // {
-    //     id: 5,
-    //     title: "Music Concert",
-    //     class: "5A",
-    //     describe: "This is a music concert",
-    //     date: "2025-01-01",
-    //     startTime: "10:00",
-    //     endTime: "11:00",
-    // },
+    {
+        id: 4,
+        title: "Museum Trip",
+        class: "4A",
+        describe: "This is a trip to the museum",
+        date: "2025-01-01",
+        startTime: "10:00",
+        endTime: "11:00",
+    },
+    {
+        id: 5,
+        title: "Music Concert",
+        class: "5A",
+        describe: "This is a music concert",
+        date: "2025-01-01",
+        startTime: "10:00",
+        endTime: "11:00",
+    },
 ];
 
 const EventCalender = () => {
@@ -64,12 +64,12 @@ const EventCalender = () => {
             <Calendar onChange={onChange} value={value} />
             <div className="flex items-center justify-between">
                 <h1 className="text-xl font-semibold my-4">Events</h1>
-                <Image src="/moreDark.png" alt="more" width={20} height={20} />
+                <Image src="/moreDark.png" alt="more" width={20} height={20} className="cursor-pointer"/>
             </div>
             <div className="flex flex-col gap-4">
-                {eventsData.map((event) => (
+                {eventsData.map((event, index) => (
                     <div
-                        className="flex justify-between gap-4 p-5 rounded-lg shadow-md text-text-primary border-t-8 odd:border-t-primary-light even:border-t-secondary-light"
+                        className={`flex justify-between gap-4 p-5 rounded-lg shadow-md text-text-primary border-t-8 ${index % 3 === 0 ? "border-t-primary-light/45" : index % 3 === 1 ? "border-t-secondary-light/45" : "border-t-accent/45"}`}
                         key={event.id}
                     >
                         <div>

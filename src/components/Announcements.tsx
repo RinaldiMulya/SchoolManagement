@@ -5,7 +5,7 @@ const Announcements = () => {
         <div className="bg-background-primary p-4 rounded-xl shadow-md">
             <div className="flex items-center justify-between">
                 <h1 className="text-xl font-semibold">Announcements</h1>
-                <span className="text-xs text-text-secondary">View All</span>
+                <span className="text-xs text-text-secondary cursor-pointer"><a>View All</a></span>
             </div>
             <div className="flex flex-col gap-4 mt-4">
                 {announcementsData.map((announcement, index) => (
